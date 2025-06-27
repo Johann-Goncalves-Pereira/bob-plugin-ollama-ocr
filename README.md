@@ -1,6 +1,6 @@
 # Bob Plugin Ollama OCR
 
-![Bob Logo](https://github.com/ripperhe/Bob/raw/master/docs/.vuepress/public/logo.png)
+![Bob Logo](/public/icon.svg)
 
 A powerful OCR (Optical Character Recognition) plugin for [Bob Translator](https://bobtranslate.com/) that leverages local Ollama vision models to extract text from images with AI precision.
 
