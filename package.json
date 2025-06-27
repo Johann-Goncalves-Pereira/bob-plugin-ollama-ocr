@@ -2,11 +2,11 @@
   "name": "bob-plugin-ollama-ocr",
   "version": "1.0.0",
   "description": "Ollama OCR plugin for Bob translator - AI-powered OCR with local Ollama models",
-  "homepage": "https://github.com/johannpereira/bob-plugin-ollama-ocr",
+  "homepage": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johannpereira/bob-plugin-ollama-ocr.git"
+    "url": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr.git"
   },
   "author": "Johann Pereira",
   "license": "MIT",

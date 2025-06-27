@@ -80,7 +80,7 @@ jobs:
           python3 scripts/update_appcast.py \
             --version ${{ github.ref_name }} \
             --sha256 ${{ steps.sha256.outputs.sha256 }} \
-            --url https://github.com/johannpereira/bob-plugin-ollama-ocr/releases/download/${{ github.ref_name }}/bob-plugin-ollama-ocr-${{ github.ref_name }}.bobplugin
+            --url https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/releases/download/${{ github.ref_name }}/bob-plugin-ollama-ocr-${{ github.ref_name }}.bobplugin
 
       - name: Commit appcast update
         run: |

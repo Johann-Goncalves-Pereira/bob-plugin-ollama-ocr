@@ -12,14 +12,14 @@
       "version": "0.0.3",
       "desc": "Release v0.0.3",
       "sha256": "a583b0ecbad3f6cb496659c1989554c76e24bc493fd938a8e45ce19d1f9484b2",
-      "url": "https://github.com/johannpereira/bob-plugin-ollama-ocr/releases/download/v0.0.3/bob-plugin-ollama-ocr-v0.0.3.bobplugin",
+      "url": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/releases/download/v0.0.3/bob-plugin-ollama-ocr-v0.0.3.bobplugin",
       "minBobVersion": "1.8.0"
     },
     {
       "version": "1.0.0",
       "desc": "Initial release - AI-powered OCR using local Ollama vision models",
-      "sha256": "",
-      "url": "https://github.com/johannpereira/bob-plugin-ollama-ocr/releases/download/v1.0.0/bob-plugin-ollama-ocr-v1.0.0.bobplugin",
+      "sha256": "REPLACE_WITH_ACTUAL_SHA256_HASH",
+      "url": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/releases/download/v1.0.0/bob-plugin-ollama-ocr-v1.0.0.bobplugin",
       "minBobVersion": "1.8.0"
     }
   ]

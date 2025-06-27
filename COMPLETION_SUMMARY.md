@@ -84,7 +84,7 @@ bob-plugin-ollama-ocr/
 ### 📦 Ready to Use!
 
 The plugin is **completely ready** and available at:
-`/Users/johannpereira/Developer/programs/bob-plugin/bob-plugin-ollama-ocr/dist/bob-plugin-ollama-ocr.bobplugin`
+`/Users/Johann-Goncalves-Pereira/Developer/programs/bob-plugin/bob-plugin-ollama-ocr/dist/bob-plugin-ollama-ocr.bobplugin`
 
 ### 🚀 Installation Steps
 

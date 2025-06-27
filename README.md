@@ -48,7 +48,7 @@ The plugin supports various Ollama vision models:
 
 ### Plugin Installation
 
-1. Download the latest plugin: [bob-plugin-ollama-ocr.bobplugin](https://github.com/johannpereira/bob-plugin-ollama-ocr/releases/latest)
+1. Download the latest plugin: [bob-plugin-ollama-ocr.bobplugin](https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/releases/latest)
 2. Double-click the `.bobplugin` file to install
 3. Configure the plugin in Bob's settings
 
@@ -118,7 +118,7 @@ ollama pull llama3.2-vision:11b
 
 ```bash
 # Clone repository
-git clone https://github.com/johannpereira/bob-plugin-ollama-ocr.git
+git clone https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr.git
 cd bob-plugin-ollama-ocr
 
 # Install dependencies
@@ -169,8 +169,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/johannpereira/bob-plugin-ollama-ocr/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/johannpereira/bob-plugin-ollama-ocr/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/discussions)
 - **Bob Community**: [Bob Community Forum](https://github.com/ripperhe/Bob/discussions)
 
 ---
