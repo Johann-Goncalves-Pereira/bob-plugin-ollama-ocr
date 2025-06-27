@@ -2,6 +2,13 @@
   "identifier": "bob-plugin-ollama-ocr",
   "versions": [
     {
+      "version": "0.0.4",
+      "desc": "Release v0.0.4",
+      "sha256": "1d53dade710d4b2a7e17ee208e0b97db4e8b9fbc9b2022ffa3413a0d53dc5a27",
+      "url": "https://github.com/johannpereira/bob-plugin-ollama-ocr/releases/download/v0.0.4/bob-plugin-ollama-ocr-v0.0.4.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
       "version": "0.0.3",
       "desc": "Release v0.0.3",
       "sha256": "a583b0ecbad3f6cb496659c1989554c76e24bc493fd938a8e45ce19d1f9484b2",
