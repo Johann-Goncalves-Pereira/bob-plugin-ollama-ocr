@@ -4,7 +4,7 @@
   "category": "ocr",
   "name": "Ollama OCR",
   "summary": "AI-powered OCR using local Ollama vision models for text extraction from images",
-  "icon": "icon.svg",
+  "icon": 129,
   "author": "Johann Pereira",
   "homepage": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr",
   "appcast": "https://github.com/Johann-Goncalves-Pereira/bob-plugin-ollama-ocr/raw/main/appcast.json",
