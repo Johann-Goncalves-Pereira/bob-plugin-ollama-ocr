@@ -39,7 +39,7 @@ jobs:
         id: sha256
         run: |
           sha256sum bob-plugin-ollama-ocr-${{ github.ref_name }}.bobplugin > checksum.txt
-          echo "sha256=$(cat checksum.txt | cut -d' ' -f1)" >> $GITHUB_OUTPUT
+          echo "sha256=$(cut -d' ' -f1 checksum.txt)" >> $GITHUB_OUTPUT
 
       - name: Create Release
         uses: actions/create-release@v1
