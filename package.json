@@ -1,0 +1,49 @@
+{
+  "name": "bob-plugin-ollama-ocr",
+  "version": "1.0.0",
+  "description": "Ollama OCR plugin for Bob translator - AI-powered OCR with local Ollama models",
+  "homepage": "https://github.com/johannpereira/bob-plugin-ollama-ocr",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johannpereira/bob-plugin-ollama-ocr.git"
+  },
+  "author": "Johann Pereira",
+  "license": "MIT",
+  "main": "src/main.js",
+  "keywords": [
+    "bobplugin",
+    "ollama",
+    "ocr",
+    "ai",
+    "vision",
+    "text-extraction",
+    "local-ai"
+  ],
+  "scripts": {
+    "build": "npx tsx scripts/build.ts",
+    "build:bun": "bun scripts/build.ts",
+    "build:node22": "NODE_OPTIONS=\"--experimental-strip-types\" zx scripts/build.ts"
+  },
+  "dependencies": {
+    "@bob-translate/types": "^1.0.2",
+    "@rollup/plugin-terser": "0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "bun": "^1.2.11",
+    "zx": "^8.5.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "rollup": "^4.40.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-delete": "^3.0.1",
+    "tslib": "2.8.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1"
+  },
+  "packageManager": "pnpm@10.10.0"
+}

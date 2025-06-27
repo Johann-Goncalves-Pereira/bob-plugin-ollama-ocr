@@ -1,0 +1,135 @@
+{
+  "identifier": "bob-plugin-ollama-ocr",
+  "version": "1.0.0",
+  "category": "ocr",
+  "name": "Ollama OCR",
+  "summary": "AI-powered OCR using local Ollama vision models for text extraction from images",
+  "icon": 124,
+  "author": "Johann Pereira",
+  "homepage": "https://github.com/johannpereira/bob-plugin-ollama-ocr",
+  "appcast": "https://github.com/johannpereira/bob-plugin-ollama-ocr/raw/main/appcast.json",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "baseUrl",
+      "type": "text",
+      "title": "Ollama Server URL",
+      "desc": "The URL of your Ollama server (default: http://localhost:11434/api/generate)",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "http://localhost:11434/api/generate"
+      }
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "Vision Model",
+      "desc": "Select the vision model to use for OCR. Make sure the model is installed in Ollama.",
+      "defaultValue": "llama3.2-vision:11b",
+      "menuValues": [
+        {
+          "title": "Llama 3.2 Vision 11B",
+          "value": "llama3.2-vision:11b"
+        },
+        {
+          "title": "Llama 3.2 Vision 90B",
+          "value": "llama3.2-vision:90b"
+        },
+        {
+          "title": "LLaVA 7B",
+          "value": "llava:7b"
+        },
+        {
+          "title": "LLaVA 13B",
+          "value": "llava:13b"
+        },
+        {
+          "title": "LLaVA 34B",
+          "value": "llava:34b"
+        },
+        {
+          "title": "BakLLaVA 7B",
+          "value": "bakllava:7b"
+        },
+        {
+          "title": "Moondream 1.8B",
+          "value": "moondream:1.8b"
+        },
+        {
+          "title": "Custom Model",
+          "value": "custom"
+        }
+      ]
+    },
+    {
+      "identifier": "customModel",
+      "type": "text",
+      "title": "Custom Model Name",
+      "desc": "Enter custom model name (only used when 'Custom Model' is selected above)",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "your-custom-vision-model"
+      }
+    },
+    {
+      "identifier": "ocrMode",
+      "type": "menu",
+      "title": "OCR Mode",
+      "desc": "Choose the output format for extracted text",
+      "defaultValue": "markdown",
+      "menuValues": [
+        {
+          "title": "Markdown",
+          "value": "markdown"
+        },
+        {
+          "title": "Plain Text",
+          "value": "plaintext"
+        },
+        {
+          "title": "Structured",
+          "value": "structured"
+        },
+        {
+          "title": "JSON",
+          "value": "json"
+        },
+        {
+          "title": "Custom",
+          "value": "custom"
+        }
+      ]
+    },
+    {
+      "identifier": "customPrompt",
+      "type": "text",
+      "title": "Custom Prompt",
+      "desc": "Custom OCR prompt (only used when OCR Mode is set to 'Custom'). Use {language} as placeholder for detected language.",
+      "textConfig": {
+        "type": "visible",
+        "height": "100",
+        "placeholderText": "Please extract all text from this image in {language}, preserving the original formatting and structure."
+      }
+    },
+    {
+      "identifier": "temperature",
+      "type": "text",
+      "title": "Temperature",
+      "desc": "Controls randomness of the model output (0.0 = deterministic, 1.0 = very creative). Default: 0.1",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "0.1"
+      }
+    },
+    {
+      "identifier": "maxTokens",
+      "type": "text",
+      "title": "Max Tokens",
+      "desc": "Maximum number of tokens in the response. Default: 4096",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "4096"
+      }
+    }
+  ]
+}
