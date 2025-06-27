@@ -358,7 +358,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - [bob-plugin-latex-ocr](https://github.com/silver-ymz/bob-plugin-latex-ocr)
   - [bob-plugin-llm-ocr](https://github.com/Henry-Jessie/bob-plugin-llm-ocr)
 - [Ollama](https://ollama.ai/) - _Local AI model runner_
-  - [Ollama OCR](https://github.com/imanoop7/Ollama-OCR) - _A powerful OCR Ollama to extract text from images and PDF_
+  - [Ollama OCR](https://github.com/imanoop7/Ollama-OCR) - _A powerful Ollama OCR tool to extract text from images and PDFs_
     - [LLaVA](https://llava-vl.github.io/) - _Vision language model_
     - [Llama](https://ai.meta.com/llama/) - _Foundation models by Meta_
 
